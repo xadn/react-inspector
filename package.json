@@ -1,6 +1,6 @@
 {
   "name": "@xadn/react-inspector",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "Temporary fork of react-inspector",
   "keywords": [],
   "homepage": "https://github.com/xyc/react-inspector",
@@ -14,14 +14,8 @@
     "type": "git",
     "url": "https://github.com/xadn/react-inspector"
   },
-  "files": [
-    "build/react-inspector.js",
-    "build/react-inspector.map",
-    "LICENSE",
-    "README.md"
-  ],
   "scripts": {
-    "build": "NODE_ENV=production BABEL_ENV=production webpack --config webpack.prod.config.js",
+    "build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
     "build:storybook": "build-storybook -o storybook-static",
     "clean": "rimraf lib",
     "lint": "eslint src --fix",
@@ -32,6 +26,7 @@
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
+    "@babel/cli": "^7.2.3",
     "babel-runtime": "^6.26.0",
     "is-dom": "^1.0.9",
     "prop-types": "^15.6.1"
@@ -51,7 +46,6 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.0.0",
     "@storybook/react": "^4.1.11",
-    "babel-cli": "^6.26.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "core-js": "^2.5.5",
