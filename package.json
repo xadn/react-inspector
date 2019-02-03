@@ -1,6 +1,6 @@
 {
-  "name": "react-inspector-strict-fork",
-  "version": "3.0.0",
+  "name": "react-inspector",
+  "version": "2.3.0",
   "description": "Temporary fork of react-inspector",
   "keywords": [],
   "homepage": "https://github.com/xyc/react-inspector",
