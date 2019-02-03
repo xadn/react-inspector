@@ -7,3 +7,4 @@ react-codemod
 gh-pages/
 lib
 build
+yarn-error.log
