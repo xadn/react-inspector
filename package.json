@@ -1,25 +1,8 @@
 {
-  "name": "react-inspector",
-  "version": "2.3.1",
-  "description": "Power of Browser DevTools inspectors right inside your React app",
-  "keywords": [
-    "devtools",
-    "inspector",
-    "object",
-    "object-inspector",
-    "react",
-    "react-component",
-    "reactjs",
-    "table",
-    "table-inspector",
-    "table-view",
-    "tableview",
-    "tree",
-    "tree-view",
-    "treeview",
-    "ui",
-    "view"
-  ],
+  "name": "react-inspector-strict-fork",
+  "version": "3.0.0",
+  "description": "Temporary fork of react-inspector",
+  "keywords": [],
   "homepage": "https://github.com/xyc/react-inspector",
   "bugs": {
     "url": "https://github.com/xyc/react-inspector/issues"
@@ -29,7 +12,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xyc/react-inspector.git"
+    "url": "https://github.com/xadn/react-inspector"
   },
   "scripts": {
     "build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
