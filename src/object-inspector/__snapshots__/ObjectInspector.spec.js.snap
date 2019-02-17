@@ -16,7 +16,6 @@ exports[`ObjectInspector passes \`nodeRenderer\` prop to <TreeView/> 1`] = `
       "listStyle": "none",
     }
   }
-  title={undefined}
 >
   <div
     onClick={[Function]}
@@ -54,7 +53,6 @@ exports[`ObjectInspector should render 1`] = `
       "listStyle": "none",
     }
   }
-  title={undefined}
 >
   <div
     onClick={[Function]}
